@@ -1,0 +1,100 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
+header{
+display: flex;
+}
+
+.logo{
+  margin-top: 10px;
+  margin-left: 40px;
+}
+
+nav{
+  margin-left: 5px;
+}
+
+ul{
+list-style: none;
+display: flex;
+margin-left: 1000px;
+margin-top: 10px;
+}
+
+li{
+  margin-left: 10px;
+  font-size: 18px;
+  transition-duration: 0.4s;
+  padding: 5px;
+  border-radius: 5px;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+li:hover{
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover{
+  color: white;
+}
+
+.wallpeper{
+  width: 100px;
+  height: 100px;
+  margin-left: 500px;
+  z-index: -1;
+}
+
+h1{
+  margin-left: 100px;
+}
+
+.text-wallpeper{
+  margin-left: 100px;
+  margin-top: 100px;
+}
+
+button{
+  margin-top: 10px;
+  background-color: black;
+  padding: 10px;
+  border: none;
+  color: white;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-top: 30px;
+  margin-left: 100px;
+  list-style-type: none;
+  cursor: pointer;
+  transition-duration: 0.4s;
+  border-radius: 5px;
+  font-size: 20px
+}
+
+button:hover{
+  background-color: yellow;
+  color: black;
+}
+
+span{
+  font-size: 20px;
+}
+
+.cart{
+
+}
+
+.cart-item{
+
+}
