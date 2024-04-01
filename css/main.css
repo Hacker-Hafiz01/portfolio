@@ -1,6 +1,6 @@
 @media (min-width: 1200px) {
   .home{
-   background-image: url("/img/image.png");
+   background-image: url("../img/image.png");
    background-size: 700px 500px;
    background-repeat: no-repeat;
    background-position: 90% 50px;
@@ -83,7 +83,7 @@
 
 @media (min-width: 370px) {
   .home{
-   background-image: url("/img/image.png");
+   background-image: url("../img/image.png");
    background-size: 700px 500px;
    background-repeat: no-repeat;
    background-position: 90% 50px;
@@ -203,7 +203,7 @@
 @media (min-width: 700px ) {
 
   .home{
-    background-image: url("/img/image.png");
+    background-image: url("../img/image.png");
     background-size: 700px 500px;
     background-repeat: no-repeat;
     background-position: 90% 50px;
