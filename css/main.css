@@ -81,7 +81,7 @@
 
 
 
-@media (min-width: 370px) {
+@media (min-width: 270px) {
   .home{
    background-image: url("../img/image.png");
    background-size: 700px 500px;
