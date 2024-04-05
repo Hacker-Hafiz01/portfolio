@@ -1,0 +1,285 @@
+@media (min-width: 1200px) {
+  .home{
+   background-image: url("/assets/img/image.png");
+   background-size: 700px 500px;
+   background-repeat: no-repeat;
+   background-position: 90% 50px;
+   font-family: 'Nunito', sans-serif;
+  }
+
+  header{
+    justify-content: space-between;
+    display: flex;
+  }
+
+  .logo {
+     margin-left: 100px;
+     margin-top: 10px;
+  }
+
+
+  .hamburger-menu {
+    display: none;
+  }
+
+  ul {
+    display: flex;
+    margin-right: 50px;
+    list-style-type: none; /* Убирает маркеры списка */
+    padding-left: 0; /* Убирает отступы слева, если они есть */
+  }
+  
+  li {
+    margin-left: 5px; /* Отступ между элементами списка */
+  }
+  
+  a {
+    text-decoration: none; /* Убирает подчеркивание у ссылок */
+    color: black; 
+    padding: 5px; /* Добавляет паддинг для увеличения кликабельной области */
+    border: none; /* Убирает любые границы */
+  }
+  
+  a:hover {
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    transition: background-color 0.5s ease;
+  }
+  
+  h1{
+    margin-left: 100px;
+    margin-top: 100px;
+  }
+
+  .start-free {
+    margin-left: 100px;
+    margin-top: 20px;
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    font-size: 25px;
+    border-radius: 5px;
+  }
+
+  .start-free:hover{
+    background-color: yellow;
+    color: black;
+    transition: background-color 0.5s ease;
+  }
+
+  .text-wallpeper{
+    margin-left: 100px;
+    margin-top: 20px;
+  }
+
+}
+
+
+
+
+
+
+@media (min-width: 370px) {
+  .home{
+   background-image: url("../img/image.png");
+   background-size: 700px 500px;
+   background-repeat: no-repeat;
+   background-position: 90% 50px;
+   font-family: 'Nunito', sans-serif;
+  }
+
+  header{
+    justify-content: space-between;
+    display: flex;
+  }
+
+  .logo {
+     margin-left: 25px;
+     margin-top: 10px;
+  }
+
+  /* Базовый стиль для иконки гамбургера */
+.hamburger {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-left: 130px;
+  margin-top: 10px;
+  height: 25px; /* Высота иконки */
+  width: 35px; /* Ширина иконки */
+}
+
+.hamburger span {
+  background-color: #333; /* Цвет линий */
+  height: 3px; /* Толщина линий */
+  width: 100%; /* Ширина линий */
+  border-radius: 5px;
+}
+
+/* Стиль для скрытия и показа меню */
+.menu {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  width: 100%;
+  top: 40px; /* Расстояние от верха страницы */
+  left: 0;
+}
+
+/* Стиль для ссылок внутри меню */
+.menu a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: #333;
+}
+
+
+  /*ul {
+    display: flex;
+    margin-right: 50px;
+    list-style-type: none; /* Убирает маркеры списка */
+    /*padding-left: 0;  Убирает отступы слева, если они есть 
+  }
+  
+  li {
+    margin-left: 5px; /* Отступ между элементами списка 
+  }
+  
+  a {
+    text-decoration: none; /* Убирает подчеркивание у ссылок 
+    color: black; 
+    padding: 5px; /* Добавляет паддинг для увеличения кликабельной области 
+    border: none; /* Убирает любые границы 
+  }
+  
+  a:hover {
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    transition: background-color 0.5s ease;
+  }*/
+
+  ul{
+    display: none;
+  }
+  
+  h1{
+    margin-left: 25px;
+    margin-top: 100px;
+  }
+
+  .start-free {
+    margin-left: 100px;
+    margin-top: 20px;
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    font-size: 25px;
+    border-radius: 5px;
+  }
+
+  .start-free:hover{
+    background-color: yellow;
+    color: black;
+    transition: background-color 0.5s ease;
+  }
+
+  .text-wallpeper{
+    margin-left: 25px;
+    margin-top: 20px;
+  }
+
+}
+
+
+
+@media (min-width: 700px ) {
+
+  .home{
+    background-image: url("../img/image.png");
+    background-size: 700px 500px;
+    background-repeat: no-repeat;
+    background-position: 90% 50px;
+    font-family: 'Nunito', sans-serif;
+   }
+ 
+   header{
+     justify-content: space-between;
+     display: flex;
+   }
+ 
+   .logo {
+      margin-left: 100px;
+      margin-top: 10px;
+   }
+ 
+ 
+   .hamburger-menu {
+     display: none;
+   }
+ 
+   ul {
+     display: flex;
+     margin-right: 50px;
+     list-style-type: none; /* Убирает маркеры списка */
+     padding-left: 0; /* Убирает отступы слева, если они есть */
+   }
+   
+   li {
+     margin-left: 5px; /* Отступ между элементами списка */
+   }
+   
+   a {
+     text-decoration: none; /* Убирает подчеркивание у ссылок */
+     color: black; 
+     padding: 5px; /* Добавляет паддинг для увеличения кликабельной области */
+     border: none; /* Убирает любые границы */
+   }
+   
+   a:hover {
+     background-color: black;
+     color: white;
+     border-radius: 5px;
+     transition: background-color 0.5s ease;
+   }
+   
+   h1{
+     margin-left: 100px;
+     margin-top: 100px;
+   }
+ 
+   .start-free {
+     margin-left: 100px;
+     margin-top: 20px;
+     border: none;
+     background-color: black;
+     color: white;
+     padding: 10px;
+     font-size: 25px;
+     border-radius: 5px;
+   }
+ 
+   .start-free:hover{
+     background-color: yellow;
+     color: black;
+     transition: background-color 0.5s ease;
+   }
+ 
+   .text-wallpeper{
+     margin-left: 100px;
+     margin-top: 20px;
+  
+}
+
+
+
+}
+
+
